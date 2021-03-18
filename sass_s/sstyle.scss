@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$color-bgrnd: #67BF4D;
+$color-formbg: #ffffff;
+$color-input: #F2F2F2;
+$color-form: #3CB241;
+$color-p: #a8a8a8;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.login-section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: $color-bgrnd;
+
+    .form-block{
+        width: 500px;
+        background: $color-formbg;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
+
+        .login-form{
+            display: grid;
+            grid-row-gap: 20px;
+            padding: 3rem;
+
+            .filedsets{
+                text-align: center;
+                input{
+                    background: $color-input;
+                    width: 100%;
+                    height:60px;
+                    font-size: 18px;
+                    border: none;
+                    outline: none;
+                    padding: 15px;
+                }
+                .login-button{
+                    width: 100%;
+                    padding: 18px;
+                    color: $color-formbg;
+                    font-size: 20px;
+                    font-weight: 600;
+                    border: none;
+                    outline: none;
+                    background: $color-form;
+                }
+            }
+          }
+    }
+}
+
+.bottom{
+    .s-color{
+        color: $color-p;
+    }
+
+    .reg-para{
+        color: $color-form;
+        margin-left:5px;
+    }
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile:sass" : "sass sass_s/main.scss css/formstyle.css --watch"
+    "compile:sass" : "sass sass_s/sstyle.scss css/style.css"
   },
   "author": "",
   "license": "ISC",
