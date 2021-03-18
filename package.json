@@ -1,0 +1,14 @@
+{
+  "name": "sasspackage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "sass sass_s/main.scss css/formstyle.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
